@@ -1,0 +1,83 @@
+[
+  {
+    "code": "english-for-today",
+    "name": "English for Today",
+    "domain": "LANGUAGE",
+    "aliases": [
+      "English for Today",
+      "English-for-Today",
+      "EnglishForToday"
+    ],
+    "title_patterns": [
+      "english for today",
+      "english-for-today",
+      "englishfortoday"
+    ],
+    "keywords": [
+      "read the passage",
+      "dialogue",
+      "ask and answer",
+      "lesson",
+      "unit",
+      "vocabulary",
+      "look at the picture"
+    ],
+    "negative_keywords": []
+  },
+  {
+    "code": "english-grammar",
+    "name": "English Grammar and Composition",
+    "domain": "LANGUAGE",
+    "aliases": [
+      "English Grammar",
+      "Grammar and Composition",
+      "English Grammar & Composition",
+      "English Grammar and Composition"
+    ],
+    "title_patterns": [
+      "english grammar",
+      "grammar and composition",
+      "grammar & composition",
+      "english grammar & composition"
+    ],
+    "keywords": [
+      "tense",
+      "preposition",
+      "clause",
+      "verb",
+      "parts of speech",
+      "sentence",
+      "composition",
+      "voice change"
+    ],
+    "negative_keywords": []
+  },
+  {
+    "code": "mathematics",
+    "name": "Mathematics",
+    "domain": "STEM",
+    "aliases": [
+      "Mathematics",
+      "General Mathematics",
+      "Math"
+    ],
+    "title_patterns": [
+      "mathematics",
+      "general mathematics",
+      "math"
+    ],
+    "keywords": [
+      "theorem",
+      "proof",
+      "solution",
+      "algebra",
+      "geometry",
+      "equation",
+      "formula",
+      "fraction",
+      "exercise",
+      "worked example"
+    ],
+    "negative_keywords": []
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "min_question_count": 1,
+  "max_question_count": 50,
+  "default_question_count": 5,
+  "generation_batch_size": 5,
+  "max_generation_rounds": 6,
+  "near_duplicate_threshold": 0.70,
+  "options_per_question": 4,
+  "max_llm_retries": 2,
+  "max_context_characters": 24000,
+  "supported_subject_codes": ["mathematics"]
+}

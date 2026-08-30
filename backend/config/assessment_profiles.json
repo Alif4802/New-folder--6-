@@ -1,0 +1,40 @@
+{
+  "profiles": {
+    "mathematics": {
+      "subject_code": "mathematics",
+      "display_name": "Mathematics",
+      "generation_enabled": true,
+      "prompt_profile": "mathematics",
+      "guidelines": [
+        "Ensure mathematical correctness, sound logic, and single unequivocally correct answers.",
+        "Derive questions exclusively from definitions, formulas, rules, and worked examples in the source chunks.",
+        "Use clean inline LaTeX notation ($...$) embedded naturally within full English sentence stems.",
+        "Distractors must represent plausible mathematical misconceptions (sign errors, exponent mistakes, reciprocal errors) and be distinct."
+      ]
+    },
+    "english_for_today": {
+      "subject_code": "english_for_today",
+      "display_name": "English for Today",
+      "generation_enabled": true,
+      "prompt_profile": "english_for_today",
+      "guidelines": [
+        "Generate questions assessing reading comprehension, vocabulary in context, factual recall, and conversational dialogue interpretation.",
+        "Ground all stems, character names, events, and contexts strictly within the provided textbook reading passages.",
+        "Distractors must be plausible English interpretations or common misreadings, mutually distinct, and unambiguously incorrect based on the text.",
+        "Use natural standard English prose without forcing mathematical notation."
+      ]
+    },
+    "english_grammar": {
+      "subject_code": "english_grammar",
+      "display_name": "English Grammar and Composition",
+      "generation_enabled": true,
+      "prompt_profile": "english_grammar",
+      "guidelines": [
+        "Generate questions covering grammar rule recognition, sentence structure, tense usage, parts of speech, articles, prepositions, and transformations.",
+        "Ground questions strictly in the rules, definitions, and illustrative examples present in the source chunks.",
+        "Ensure exactly one option is grammatically correct and that distractors reflect common grammatical errors or misclassifications.",
+        "Use natural standard English prose without forcing mathematical notation."
+      ]
+    }
+  }
+}
