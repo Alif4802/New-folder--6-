@@ -1,17 +1,28 @@
+"""
+Windows Media OCR Smoke Test Diagnostic
+
+- Optional manual Windows OCR environment diagnostic.
+- Not run by pytest (kept outside the automated test suite).
+- Not required for normal application startup.
+- Makes no database mutations or network requests.
+- Validates host Windows Media OCR runtime, language pack availability, and bounding-box extraction on synthetic image bytes.
+"""
+
 import asyncio
 import io
 import sys
 from pathlib import Path
 
-# Add backend directory to sys.path
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+# Add backend root directory to sys.path so app packages resolve
+backend_dir = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(backend_dir))
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
 from app.services.ocr.winocr_provider import WinOCRProvider
 
 
 async def run_smoke_test():
-    print("=== WINDOWS MEDIA OCR SMOKE TEST ===")
+    print("=== WINDOWS MEDIA OCR ENVIRONMENT SMOKE TEST ===")
     provider = WinOCRProvider(language="en-US")
     is_avail = provider.is_available()
     print(f"WinOCR Available on Host: {is_avail}")
